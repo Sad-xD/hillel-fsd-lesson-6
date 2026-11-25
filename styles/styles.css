@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'Gentium Book Plus';
+    src: url('../fonts/GentiumBookPlus-Bold.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gentium Book Plus';
+    src: url('../fonts/GentiumBookPlus.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+    font-family: 'Gentium Book Plus', serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+    background-color: rgb(88, 103, 134);
+    
+}
+
+.container {
+  width: 90%;
+  max-inline-size: 1200px;
+  margin-inline: auto;
+  padding: 20px 0;
+}
+.container table{
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse ;
+    background-color: azure;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.3);
+}
+.container table caption{
+    font-weight: 900;
+    font-size: 24px;
+    margin: 20px 0;
+    color: azure;
+}
+.container table th, .container table td, .container table tr{
+    font-weight: 400;
+    border: 1px solid black;
+    border-collapse: collapse ;
+        
+}
+.container table th, .container table td{
+    padding: 6px 10px;
+    text-align: center;
+}
+.container table th{
+    font-weight: 900;
+}
+.container table thead th{
+    background-color: rgb(184, 223, 223);
+}
+.container table tbody th{
+    background-color: rgb(223, 243, 243);
+}
+.container table tbody tr:nth-child(even) {
+  background-color: #e9e7e7;
+}
